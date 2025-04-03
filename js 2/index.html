@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button data-toggle-id="bred">
+        Животные
+    </button>
+    <button data-toggle-id="tred">
+        Рыбы
+    </button>
+    <form id="bred" hidden>
+        <button data-toggle-id="rred">
+            Млекопитающие
+        </button>
+        <button data-toggle-id="hred">
+            Другие
+        </button>
+        <form id="rred" hidden>
+            <p>Коровы</p>
+            <p>Ослы</p>
+            <p>Собаки</p>
+            <p>Тигры</p>
+        </form>
+        <form id="hred" hidden>
+            <p>Змеи</p>
+            <p>Птицы</p>
+            <p>Ящерица</p>
+        </form>
+    </form>
+    <form id="tred" hidden>
+        <button data-toggle-id="ured">
+            Акварнумные
+        </button>
+        <button data-toggle-id="kred">
+            Морские
+        </button>
+        <form id="ured" hidden>
+            <P>Гуппи</P>
+            <P>Скалярии</P>
+        </form>
+        <form id="kred" hidden>
+            <p>Морская форель</p>
+        </form>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
